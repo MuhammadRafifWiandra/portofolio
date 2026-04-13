@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!-- FONT METAL -->
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&display=swap" rel="stylesheet">
+
+  <!-- ICON -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- VIDEO BACKGROUND -->
+<video autoplay muted loop id="bgVideo">
+  <source src="bg.mp4" type="video/mp4">
+</video>
+
+<!-- DARK OVERLAY -->
+<div class="overlay"></div>
+
+<!-- CONTENT -->
+<div class="container">
+
+  <h1>Portfolio</h1>
+  <p>MAHASISWA</p>
+
+  <!-- PROFILE -->
+  <img src="profile.jpg" class="profile">
+
+  <!-- SOCIAL BUTTON -->
+  <div class="socials">
+
+    <a href="https://wa.me/6285693853052" target="_blank" class="btn wa">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <a href="https://instagram.com/mhmrafif__" target="_blank" class="btn ig">
+      <i class="fab fa-instagram"></i>
+    </a>
+
+    <a href="https://github.com/MuhammadRafifWiandra" target="_blank" class="btn gh">
+      <i class="fab fa-github"></i>
+    </a>
+
+  </div>
+
+  <!-- MUSIC -->
+  <button class="music-btn" onclick="toggleMusic()">SOUND ON</button>
+
+</div>
+
+<!-- AUDIO -->
+<audio id="bgMusic" loop autoplay>
+  <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+</body>
+</html>
